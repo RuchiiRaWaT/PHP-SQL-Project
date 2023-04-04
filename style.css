@@ -1,0 +1,55 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    padding: 34px;
+    margin: auto;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,-29)) ,url("bg.jpg");
+    background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+height: 100vh;
+}
+.container p {
+    font-size: 17px;
+    margin: 5px 0px;
+}
+.submit-msg{   
+     color: lightgreen;
+    font-size: 20px;
+    font-family: 'Alkatra', cursive;}
+.container h2{
+    font-family: 'Alkatra', cursive;
+}
+.container h2,p{
+    text-align: center;
+}
+input,textarea{
+    width: 65%;
+    display: block;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 14px;
+  
+}
+form{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: white;
+    background: purple;
+    text-align: center;
+    width: 10%;
+    margin-left: 5px;
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 20px;
+}
